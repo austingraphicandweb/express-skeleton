@@ -1,0 +1,24 @@
+{
+  "name": "express-skeleton",
+  "version": "1.0.0",
+  "description": "This is a basic express skeleton testing out a few routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austingraphicandweb/express-skeleton.git"
+  },
+  "author": "Austin J Keener",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austingraphicandweb/express-skeleton/issues"
+  },
+  "homepage": "https://github.com/austingraphicandweb/express-skeleton#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
