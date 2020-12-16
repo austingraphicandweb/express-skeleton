@@ -6,8 +6,12 @@ const PORT = 3000;
 const app = express();
 const data = require("./data/data.json");
 
+//display data to the front end
+app.get('/', (req,res) => {
+    res.json(data);
+})
+
 //setup express.listen so that I can see that the server is live within my terminal window
 app.listen(PORT, () => {
   console.log(`Server is live on port ${PORT}!`);
-  console.log(data);
 });
